@@ -3,17 +3,13 @@ default_platform(:ios)
 platform :ios do
   desc "Push a new release build to the App Store"
   lane :release do
+    match
     increment_version_number(version_number: '1.2')
     next_build_number = 1 + latest_testflight_build_number(version: "1.2")
     increment_build_number(build_number: next_build_number)
     build_app(scheme: "FastBike",
       export_options: {
       method: "app-store",
-      provisioningProfiles: {
-        "com.tm.FastBike.app" => "AppStore_com.tm.FastBike.app.mobileprovision",
-        "com.tm.FastBike.app.watchkitapp" => "AppStore_com.tm.FastBike.app.watchkitapp",
-        "com.tm.FastBike.app.watchkitapp.watchkitextension" => "AppStore_com.tm.FastBike.app.watchkitapp.watchkitextension.mobileprovision"
-      }
     })
     upload_to_app_store
   end

@@ -1,0 +1,8 @@
+git_url("git@github.com:tiagomartinho/match.git")
+
+storage_mode("git")
+
+type("appstore") # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier(["com.tm.FastBike.app", "com.tm.FastBike.app.watchkitapp", "com.tm.FastBike.app.watchkitapp.watchkitextension"])
+username("t.martinho@live.com.pt") # Your Apple Developer Portal username
