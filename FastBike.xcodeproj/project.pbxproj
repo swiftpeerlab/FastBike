@@ -10,7 +10,6 @@
 		1AEE2C9B1BCF7346F4EE3317 /* Pods_FastBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0C609107A7A76C5E787BD9 /* Pods_FastBike.framework */; };
 		244A586221AC725E00A0403C /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A586121AC725E00A0403C /* ViewControllerTest.swift */; };
 		244A586421AC743800A0403C /* BikeStationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A586321AC743800A0403C /* BikeStationService.swift */; };
-		244A586621AC7FE700A0403C /* TrentinoBikeStationServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A586521AC7FE700A0403C /* TrentinoBikeStationServiceTest.swift */; };
 		244A586821AC831400A0403C /* BikeStationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A586721AC831400A0403C /* BikeStationServiceDelegate.swift */; };
 		245CCA6821B83DF30094E5CC /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CCA6721B83DF30094E5CC /* IntegrationTests.swift */; };
 		245CCA7021B85CFF0094E5CC /* BikeStationServiceAggregatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CCA6F21B85CFF0094E5CC /* BikeStationServiceAggregatorTest.swift */; };
@@ -107,7 +106,6 @@
 /* Begin PBXFileReference section */
 		244A586121AC725E00A0403C /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 		244A586321AC743800A0403C /* BikeStationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationService.swift; sourceTree = "<group>"; };
-		244A586521AC7FE700A0403C /* TrentinoBikeStationServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrentinoBikeStationServiceTest.swift; sourceTree = "<group>"; };
 		244A586721AC831400A0403C /* BikeStationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationServiceDelegate.swift; sourceTree = "<group>"; };
 		245CCA6521B83DF30094E5CC /* IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		245CCA6721B83DF30094E5CC /* IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationTests.swift; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 				7FB28AE6C79E7A60C2FBA826 /* Pods-FastBikeTests.debug.xcconfig */,
 				4C8C9545ACDACBBA2ADF478F /* Pods-FastBikeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,7 +305,6 @@
 				EA2840DE1D88159000BCE287 /* BikeStationFinderTests.swift */,
 				EA2840E01D88159000BCE287 /* Info.plist */,
 				244A586121AC725E00A0403C /* ViewControllerTest.swift */,
-				244A586521AC7FE700A0403C /* TrentinoBikeStationServiceTest.swift */,
 				245CCA6F21B85CFF0094E5CC /* BikeStationServiceAggregatorTest.swift */,
 				24893BA321EFB1CB00EF9F76 /* BikeStationTest.swift */,
 			);
@@ -431,7 +427,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = tm;
 				TargetAttributes = {
 					245CCA6421B83DF30094E5CC = {
@@ -481,6 +477,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -674,7 +671,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				245CCA7021B85CFF0094E5CC /* BikeStationServiceAggregatorTest.swift in Sources */,
-				244A586621AC7FE700A0403C /* TrentinoBikeStationServiceTest.swift in Sources */,
 				24893BA421EFB1CB00EF9F76 /* BikeStationTest.swift in Sources */,
 				244A586221AC725E00A0403C /* ViewControllerTest.swift in Sources */,
 				95BA99001D8C6F73005905FB /* BikeStationFinderTests.swift in Sources */,
@@ -753,7 +749,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tm.IntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastBike.app/FastBike";
 			};
@@ -777,7 +773,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tm.IntegrationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastBike.app/FastBike";
 			};
@@ -795,6 +791,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -812,6 +809,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -828,6 +826,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -844,6 +843,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
@@ -853,6 +853,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -904,7 +905,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -913,6 +914,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -956,7 +958,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -976,6 +978,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FastBike/FastBike-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -992,6 +995,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tm.FastBike.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FastBike/FastBike-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1007,6 +1011,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tm.FastBikeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FastBike/FastBike-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastBike.app/FastBike";
 			};
 			name = Debug;
@@ -1023,6 +1028,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tm.FastBikeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FastBike/FastBike-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastBike.app/FastBike";
 			};
 			name = Release;

@@ -48,13 +48,11 @@ extension InterfaceController {
             } else if let httpResponse = response as? HTTPURLResponse {
                 if httpResponse.statusCode == 200 {
                     if let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as? [Any] {
-                        if let json = json {
-                            for element in json {
-                                if let element = element as? [String:AnyObject] {
-                                    let bikeStation = BikeStation(json: element)
-                                    self.bikeStations.append(bikeStation)
-                                    self.mapView.addAnnotation(bikeStation.location.coordinate, with: WKInterfaceMapPinColor.red)
-                                }
+                        for element in json {
+                            if let element = element as? [String:AnyObject] {
+                                let bikeStation = BikeStation(json: element)
+                                self.bikeStations.append(bikeStation)
+                                self.mapView.addAnnotation(bikeStation.location.coordinate, with: WKInterfaceMapPinColor.red)
                             }
                         }
                     }
