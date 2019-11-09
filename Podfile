@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 def app_pods
     pod 'Google/Analytics'
-    pod 'BuddyBuildSDK'
+#    pod 'BuddyBuildSDK'
 end
 
 target 'FastBike' do
