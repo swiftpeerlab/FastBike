@@ -6,532 +6,81 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 208C98A87EB59A2C89B7625090673A1F /* Build configuration list for PBXAggregateTarget "FirebaseCore" */;
-			buildPhases = (
-			);
-			dependencies = (
-				92EE3E2A0381377E5DAF24E4BE9DBF68 /* PBXTargetDependency */,
-			);
-			name = FirebaseCore;
-		};
-		968D06ADB152B8D9FA77D570E2335002 /* GoogleAnalytics */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4CAF476B26098AAB302033DB54FAD94F /* Build configuration list for PBXAggregateTarget "GoogleAnalytics" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = GoogleAnalytics;
-		};
-		9E25537BF40D1A3B30CF43FD3E6ACD94 /* FirebaseInstanceID */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9FAA964F264B0B04E69AFBE7C22E273F /* Build configuration list for PBXAggregateTarget "FirebaseInstanceID" */;
-			buildPhases = (
-			);
-			dependencies = (
-				A29EC6CFE93EA4F45B700DF818EC80AC /* PBXTargetDependency */,
-			);
-			name = FirebaseInstanceID;
-		};
-		B6F8229589F7EEB3E997F0119C4C7D0A /* Google */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 519DFAEA8B9A1C37CA697F0D09B874B3 /* Build configuration list for PBXAggregateTarget "Google" */;
-			buildPhases = (
-			);
-			dependencies = (
-				66672560DFBA5EBA0363C4E7718AA484 /* PBXTargetDependency */,
-				2FD6505631CD9A024C5D494106EF54FE /* PBXTargetDependency */,
-			);
-			name = Google;
-		};
-		C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 05F0F025DBD3F39BA9B57785D9E10B75 /* Build configuration list for PBXAggregateTarget "FirebaseAnalytics" */;
-			buildPhases = (
-			);
-			dependencies = (
-				88D4D3C901BF1D6D7E8234644AA546BA /* PBXTargetDependency */,
-				B5B63A415C82928059AF52D43F193268 /* PBXTargetDependency */,
-				5BB988189C98CC982446B122614591E7 /* PBXTargetDependency */,
-			);
-			name = FirebaseAnalytics;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		0475BC990B96ACEE23F91F98A2066D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		19C2071E06F1050D78B31611A2FAAC0E /* Pods-FastBike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66DFDE7BC5804237CB5B0172AA5805 /* Pods-FastBike-dummy.m */; };
-		2FD2FDFD8868DB8533AA6A5D58964640 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5044D8CCB107320CD6A3DAC6C5D76B /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ED05524606B66654D2117C695934153 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DC15D6C3CE828058CD7BD191D2E3A2 /* GTMNSData+zlib.m */; };
-		48257BC0631AF42D27DD87AF247170D1 /* Pods-FastBikeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF258F8DF990B4629D6BA58755E6F81 /* Pods-FastBikeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544566C1772047951DE95E2C47825CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		61968A48714BDD95E24CFF96637035E6 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4255F89D025201E93D45DEAA62FA7C1 /* GoogleToolboxForMac-dummy.m */; };
-		6343C5F275DCF0CCF34F534769E4BA8A /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F84A1BD5AE6C65FAD127F8758327D20 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A1B68DA3C567DEF069D592C1250AA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		741C0B4D33A877A90AE9B8F00BB72D53 /* Pods-FastBikeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD780BECF37E9D6D24FFF0F397790D /* Pods-FastBikeTests-dummy.m */; };
-		A236DAB7E5849478B39BAA7D759B5DEF /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 980CDCB0680242EE1A047A25363521F3 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F15F00173AFACA603C394B60CB84E2EE /* Pods-FastBike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB4DB4F83823E28806677F994C7CF7C /* Pods-FastBike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593DD844C0BCD1BD0DCF6BAEED178BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9915C7CC00AD14EDBFEAFAF3506893E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		99F246096AA45FCD38640AFEDF062904 /* Pods-FastBikeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F23834C70475D17FA5E84762F2F9F /* Pods-FastBikeTests-dummy.m */; };
+		A0AA43E9DE3B0A22F73FF4C642286D24 /* Pods-FastBike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC9F7334FE7B0FDFF869905DFA1C9FA /* Pods-FastBike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0461A54EAAD1C937DF137F27755167 /* Pods-FastBikeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B90B94144F623E6F5484A85A2196C03 /* Pods-FastBikeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB52D2A352388D48D7F21F54897B4944 /* Pods-FastBike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA46506EA3BBC55A6512023E6007939 /* Pods-FastBike-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		028B147F118BF99144C9BBCF3CAB5E7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		0F3C6A557D3E6BCB24E856D9F5B0D301 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 968D06ADB152B8D9FA77D570E2335002;
-			remoteInfo = GoogleAnalytics;
-		};
-		25035DD83DDFEEB16C4D6CDF2B1C5133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4402AFF83DBDC4DD07E198685FDC2DF2;
-			remoteInfo = FirebaseCore;
-		};
-		2F9117C1700083EC02C976A04CD35BA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4402AFF83DBDC4DD07E198685FDC2DF2;
-			remoteInfo = FirebaseCore;
-		};
-		3B062205E6D965880D20D47434268A1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E25537BF40D1A3B30CF43FD3E6ACD94;
-			remoteInfo = FirebaseInstanceID;
-		};
-		5873126874F2B913B30114B549B15EEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E25537BF40D1A3B30CF43FD3E6ACD94;
-			remoteInfo = FirebaseInstanceID;
-		};
-		5A26F13B61239539F1CCF0021A6E96E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C49E7A4D59E5C8BE8DE9FB1EFB150185;
-			remoteInfo = FirebaseAnalytics;
-		};
-		5B9F086BD7990A839792A6BBDB56A49E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		5DF00BB404F27282E510F3997B955676 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C49E7A4D59E5C8BE8DE9FB1EFB150185;
-			remoteInfo = FirebaseAnalytics;
-		};
-		6BE002F74E4E1BC02E500E7F80EAEB75 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6F8229589F7EEB3E997F0119C4C7D0A;
-			remoteInfo = Google;
-		};
-		6D53A959C159F49555DAA1EE785DF5C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		6E90E63AEE5C2B1D2564460550BD2630 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C49E7A4D59E5C8BE8DE9FB1EFB150185;
-			remoteInfo = FirebaseAnalytics;
-		};
-		9F7108EE43A3BEC803A1A75A17695A71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6F8229589F7EEB3E997F0119C4C7D0A;
-			remoteInfo = Google;
-		};
-		AA3CDCB5D0FC8051C3CC1359D74708FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4402AFF83DBDC4DD07E198685FDC2DF2;
-			remoteInfo = FirebaseCore;
-		};
-		B91C6970889687427C2D4B818F96DC62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 968D06ADB152B8D9FA77D570E2335002;
-			remoteInfo = GoogleAnalytics;
-		};
-		D4DEAD9E36B954F48A300F95DE42F752 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 968D06ADB152B8D9FA77D570E2335002;
-			remoteInfo = GoogleAnalytics;
-		};
-		DCCBC5AA741D9B0802B5B8E98255B4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4402AFF83DBDC4DD07E198685FDC2DF2;
-			remoteInfo = FirebaseCore;
-		};
-		FEA3E05F83A0ED1027A1DA4A9C46776D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47C581D39D227080F83B16A22A56664;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		FED3D1BBFD5AAFE51D214ABBB0870E15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E25537BF40D1A3B30CF43FD3E6ACD94;
-			remoteInfo = FirebaseInstanceID;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00F4ED6CF2D56CBA72B2E9FC8FBFC54E /* FirebaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCore.xcconfig; sourceTree = "<group>"; };
-		058DB578999A471FC025D792D83FF3A9 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Sources/GAILogger.h; sourceTree = "<group>"; };
-		05D5BCA514A8AFDAC3181234068EEB4A /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Sources/GAITrackedViewController.h; sourceTree = "<group>"; };
-		082C591C3412A2AF7D0FDD36BED25BAA /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		0C2E89707A90E286AAEA8A2A68922D48 /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
-		0F84A1BD5AE6C65FAD127F8758327D20 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
-		102CE62D83B28CEC790F1C9E4A464305 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Sources/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		11E1C4D347AA6D560B8839A822A13B6C /* Pods-FastBike-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastBike-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12D819923BD5454C6F95ED2F7BC35627 /* Pods-FastBike-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBike-Info.plist"; sourceTree = "<group>"; };
-		1BB6997AAADCF7D532E8B08CE967FE53 /* Pods-FastBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBike.release.xcconfig"; sourceTree = "<group>"; };
-		2199967245B7A681C1FD142736F6F1DC /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
-		251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		257FC53654F82A26C0A68444D3F51E66 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/Core.h; sourceTree = "<group>"; };
-		30F1825E920C7ACB3A6CAA6FFCFEA1D8 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Sources/GAIFields.h; sourceTree = "<group>"; };
+		131557B1204337E7FE244D1371C3ECF4 /* Pods-FastBike-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBike-Info.plist"; sourceTree = "<group>"; };
+		1BA46506EA3BBC55A6512023E6007939 /* Pods-FastBike-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastBike-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		340614F14FBED0E34F6A991104ABAD88 /* Pods-FastBikeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastBikeTests-frameworks.sh"; sourceTree = "<group>"; };
-		3D4E99A3D98B66175240F1E1E473ED0A /* GGLAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLAnalytics.framework; path = Frameworks/GGLAnalytics.framework; sourceTree = "<group>"; };
-		44152D470BAD9384B6CAFD61184F0836 /* Pods-FastBike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FastBike.modulemap"; sourceTree = "<group>"; };
-		4BF70702492D168A1CFDABDBB8E2E7DC /* Pods-FastBikeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastBikeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52C39CBFECF926047D48D82A59A8BDAE /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		5980899CE5297DAE8BA757E64E3830E0 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
-		59DC15D6C3CE828058CD7BD191D2E3A2 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		5E4E1A01571F91AC6C6D74D066C41A3A /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Headers/Analytics.h; sourceTree = "<group>"; };
-		630BC2137F9DE3585D5D081E9A57BF17 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Sources/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		6D3A90D22F3C7DE8D82DEF4AD21D7E3A /* GoogleAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAnalytics.xcconfig; sourceTree = "<group>"; };
-		725DC529C04B287E89EC80492F34A01E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		72619BCE94BFDB23F156B69CA1EEA50F /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		7829C2A47F526FA4AEA6EFD576845187 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Sources/GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		788561543BA19BB39FE938DD175ECA93 /* Pods-FastBike-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBike-acknowledgements.plist"; sourceTree = "<group>"; };
-		7902FA9A8FF7ECF12B8C061CC3C980C2 /* FirebaseInstanceID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseInstanceID.xcconfig; sourceTree = "<group>"; };
-		795E60986EF911F32A1F1A70AEE93271 /* Pods-FastBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBike.debug.xcconfig"; sourceTree = "<group>"; };
-		7C1D7FD11081A627F8DB28E13A0CD067 /* FirebaseAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseAnalytics.xcconfig; sourceTree = "<group>"; };
-		83E792D8886FE19B853151460E0F55F5 /* Pods-FastBikeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBikeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8696D52F835D5F2546FF280D6835C841 /* Pods-FastBikeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FastBikeTests.modulemap"; sourceTree = "<group>"; };
-		8BF258F8DF990B4629D6BA58755E6F81 /* Pods-FastBikeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastBikeTests-umbrella.h"; sourceTree = "<group>"; };
-		8DAFA7AD2CA45C389A101DE24CD61B2B /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Sources/GAIEcommerceFields.h; sourceTree = "<group>"; };
-		980CDCB0680242EE1A047A25363521F3 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		9A7BD0CA5CB0C4C4B311259074565897 /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		3BB52C4FD93F2C5D38C626FAEEDEA1BF /* Pods-FastBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F3F23834C70475D17FA5E84762F2F9F /* Pods-FastBikeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastBikeTests-dummy.m"; sourceTree = "<group>"; };
+		48FA13398D33C7D4FFE28B80EE9D92D0 /* Pods-FastBikeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastBikeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5200474537617DC5DBCB2E09B0552B79 /* Pods-FastBike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FastBike.modulemap"; sourceTree = "<group>"; };
+		6FC9F7334FE7B0FDFF869905DFA1C9FA /* Pods-FastBike-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastBike-umbrella.h"; sourceTree = "<group>"; };
+		7627A6C3ACFBDD6895C5EDCD515B6C22 /* Pods-FastBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBike.release.xcconfig"; sourceTree = "<group>"; };
+		7A252FEEEDCDABD65D98912F88455C8F /* Pods-FastBikeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FastBikeTests.modulemap"; sourceTree = "<group>"; };
+		8BF72F71037801A36A62389D2DAE7217 /* Pods-FastBikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B90B94144F623E6F5484A85A2196C03 /* Pods-FastBikeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastBikeTests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A58B889C50D0A9E676EA0D6BD389510F /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Sources/GAITracker.h; sourceTree = "<group>"; };
-		A8523593028955F5A3FB542BDE3E773C /* Pods-FastBikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B95F2D300827B13169D16DE3DFD01C4D /* Pods_FastBikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FastBikeTests.framework; path = "Pods-FastBikeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB4DB4F83823E28806677F994C7CF7C /* Pods-FastBike-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastBike-umbrella.h"; sourceTree = "<group>"; };
-		C4255F89D025201E93D45DEAA62FA7C1 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		C5AEB3CF6905194CC86FC43CE6E1B655 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		C66FF2803597E319EFC05DAF2491B28E /* Pods-FastBike-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastBike-frameworks.sh"; sourceTree = "<group>"; };
-		C6B65327D0A32BF99027317150E3ED7C /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		CA7BC0447E713B674F718CADB8F91E26 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Sources/GAI.h; sourceTree = "<group>"; };
-		CC91EB93F0A90119781BBC8DB0F2DACB /* Pods-FastBikeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBikeTests-Info.plist"; sourceTree = "<group>"; };
-		CE66DFDE7BC5804237CB5B0172AA5805 /* Pods-FastBike-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastBike-dummy.m"; sourceTree = "<group>"; };
-		D6DD780BECF37E9D6D24FFF0F397790D /* Pods-FastBikeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FastBikeTests-dummy.m"; sourceTree = "<group>"; };
-		D6F7DEF19B66C0D6F45B1B4C12049640 /* GoogleToolboxForMac-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleToolboxForMac-Info.plist"; sourceTree = "<group>"; };
-		DF5044D8CCB107320CD6A3DAC6C5D76B /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		ECFBD0ABB002699F215E3C0923C9A75A /* Google.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Google.xcconfig; sourceTree = "<group>"; };
-		ECFD52E1249867890450F192C275661F /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		C91AE9C37D514B545D52E4AD3EA8962F /* Pods-FastBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBike.debug.xcconfig"; sourceTree = "<group>"; };
+		C98357959FDD7C94E5FB835C5082CA4A /* Pods-FastBike-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBike-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA9D3A93ECAA5B7D4F597C444CA966B9 /* Pods-FastBikeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBikeTests-Info.plist"; sourceTree = "<group>"; };
+		EC15F4CED67F50199017FBBE2E7A9251 /* Pods-FastBikeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastBikeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2C4C8D36A8C9CFDC9B8E217772B11E7 /* Pods_FastBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FastBike.framework; path = "Pods-FastBike.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F738303858BD3710D31A74675A286388 /* Pods-FastBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastBikeTests.release.xcconfig"; sourceTree = "<group>"; };
-		FA6834BF7750344C8221D7DE9BC9566B /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Sources/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		FA70893594B69F1FF3EE961E61FE326F /* Pods-FastBike-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FastBike-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		026C0A794227868B2E34CB168D7910C7 /* Frameworks */ = {
+		DF82C6471DA80377FF491C9797AC2143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544566C1772047951DE95E2C47825CC3 /* Foundation.framework in Frameworks */,
+				593DD844C0BCD1BD0DCF6BAEED178BF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B00FCB69AA4DD24A9C2F62E473504611 /* Frameworks */ = {
+		E89C956EB2C33D29F856474A2B0865AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0475BC990B96ACEE23F91F98A2066D57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E35D2E5168777727599C210371779E4C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A1B68DA3C567DEF069D592C1250AA68 /* Foundation.framework in Frameworks */,
+				9915C7CC00AD14EDBFEAFAF3506893E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00CA2EE8DEAC35F4232662CB26F4B614 /* Products */ = {
+		748C390DA023BCA3F0115B1E46F33BBA /* Pods-FastBike */ = {
 			isa = PBXGroup;
 			children = (
-				251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */,
-				F2C4C8D36A8C9CFDC9B8E217772B11E7 /* Pods_FastBike.framework */,
-				B95F2D300827B13169D16DE3DFD01C4D /* Pods_FastBikeTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2301480218FFD391AB7384B71E407B4C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D3A90D22F3C7DE8D82DEF4AD21D7E3A /* GoogleAnalytics.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleAnalytics";
-			sourceTree = "<group>";
-		};
-		279172A1C2DA08107A28A72B069CAAAD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				082C591C3412A2AF7D0FDD36BED25BAA /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3437831A68556010701E50A1986CF9AA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C1D7FD11081A627F8DB28E13A0CD067 /* FirebaseAnalytics.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FirebaseAnalytics";
-			sourceTree = "<group>";
-		};
-		383275924E1D2DF686A3C9C30ED16C9D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ECFBD0ABB002699F215E3C0923C9A75A /* Google.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Google";
-			sourceTree = "<group>";
-		};
-		40627D87039D52D1D6C1BF1F56BE59A8 /* Google */ = {
-			isa = PBXGroup;
-			children = (
-				B5817CA96EB7659B5742AD439E90B9C2 /* Analytics */,
-				98497E915E8A18DE6896A421EE109058 /* Core */,
-				383275924E1D2DF686A3C9C30ED16C9D /* Support Files */,
-			);
-			name = Google;
-			path = Google;
-			sourceTree = "<group>";
-		};
-		49E48D7AE27234B08D536F6D7C02FE94 /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				D1ABDD19916CB123E5008965939BAF4E /* Frameworks */,
-				3437831A68556010701E50A1986CF9AA /* Support Files */,
-			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		61345398D5521AB2C06BC6B2593EBDE2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CA78BEAF67CC84EFC1475BA9621A283 /* Pods-FastBike */,
-				A48B5AD52180EF6B1C4E6653C9DFE7D3 /* Pods-FastBikeTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6228F19379CF226E2D63B75D705DE6F2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49E48D7AE27234B08D536F6D7C02FE94 /* FirebaseAnalytics */,
-				FF2B8F6AFFF66130B19EFBAF577EB190 /* FirebaseCore */,
-				992C33ACF6F53CA76C72DD89A5B53875 /* FirebaseInstanceID */,
-				40627D87039D52D1D6C1BF1F56BE59A8 /* Google */,
-				BD914514A860B387AE9F661E190206D4 /* GoogleAnalytics */,
-				B39209673D3730431A19BC6BADB4ECAF /* GoogleToolboxForMac */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		641E0CD3D5DF2B4B4175ACC5D31607EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C6B65327D0A32BF99027317150E3ED7C /* FirebaseCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		781E90B512B8F7B88B7977AF8668628D /* Defines */ = {
-			isa = PBXGroup;
-			children = (
-				DF5044D8CCB107320CD6A3DAC6C5D76B /* GTMDefines.h */,
-			);
-			name = Defines;
-			sourceTree = "<group>";
-		};
-		86BFC5C9F553A703FB0FE395F457535B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00F4ED6CF2D56CBA72B2E9FC8FBFC54E /* FirebaseCore.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FirebaseCore";
-			sourceTree = "<group>";
-		};
-		8CA78BEAF67CC84EFC1475BA9621A283 /* Pods-FastBike */ = {
-			isa = PBXGroup;
-			children = (
-				44152D470BAD9384B6CAFD61184F0836 /* Pods-FastBike.modulemap */,
-				11E1C4D347AA6D560B8839A822A13B6C /* Pods-FastBike-acknowledgements.markdown */,
-				788561543BA19BB39FE938DD175ECA93 /* Pods-FastBike-acknowledgements.plist */,
-				CE66DFDE7BC5804237CB5B0172AA5805 /* Pods-FastBike-dummy.m */,
-				C66FF2803597E319EFC05DAF2491B28E /* Pods-FastBike-frameworks.sh */,
-				12D819923BD5454C6F95ED2F7BC35627 /* Pods-FastBike-Info.plist */,
-				BFB4DB4F83823E28806677F994C7CF7C /* Pods-FastBike-umbrella.h */,
-				795E60986EF911F32A1F1A70AEE93271 /* Pods-FastBike.debug.xcconfig */,
-				1BB6997AAADCF7D532E8B08CE967FE53 /* Pods-FastBike.release.xcconfig */,
+				5200474537617DC5DBCB2E09B0552B79 /* Pods-FastBike.modulemap */,
+				FA70893594B69F1FF3EE961E61FE326F /* Pods-FastBike-acknowledgements.markdown */,
+				C98357959FDD7C94E5FB835C5082CA4A /* Pods-FastBike-acknowledgements.plist */,
+				1BA46506EA3BBC55A6512023E6007939 /* Pods-FastBike-dummy.m */,
+				131557B1204337E7FE244D1371C3ECF4 /* Pods-FastBike-Info.plist */,
+				6FC9F7334FE7B0FDFF869905DFA1C9FA /* Pods-FastBike-umbrella.h */,
+				C91AE9C37D514B545D52E4AD3EA8962F /* Pods-FastBike.debug.xcconfig */,
+				7627A6C3ACFBDD6895C5EDCD515B6C22 /* Pods-FastBike.release.xcconfig */,
 			);
 			name = "Pods-FastBike";
 			path = "Target Support Files/Pods-FastBike";
 			sourceTree = "<group>";
 		};
-		8F083C1E80AF0C780C938F20A440673D /* Frameworks */ = {
+		906A38F3D6B186F682E52E59CC83505A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECFD52E1249867890450F192C275661F /* GGLCore.framework */,
+				748C390DA023BCA3F0115B1E46F33BBA /* Pods-FastBike */,
+				F130544F7E1BE0067A7C58C0B97F2087 /* Pods-FastBikeTests */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		98497E915E8A18DE6896A421EE109058 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				2199967245B7A681C1FD142736F6F1DC /* Analytics-Module.h */,
-				257FC53654F82A26C0A68444D3F51E66 /* Core.h */,
-				9A7BD0CA5CB0C4C4B311259074565897 /* Core-Module.h */,
-				0C2E89707A90E286AAEA8A2A68922D48 /* SignIn-Module.h */,
-				8F083C1E80AF0C780C938F20A440673D /* Frameworks */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		992C33ACF6F53CA76C72DD89A5B53875 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				279172A1C2DA08107A28A72B069CAAAD /* Frameworks */,
-				CF451FAD0432B3B45D07EB9A429F6EB1 /* Support Files */,
-			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		A48B5AD52180EF6B1C4E6653C9DFE7D3 /* Pods-FastBikeTests */ = {
-			isa = PBXGroup;
-			children = (
-				8696D52F835D5F2546FF280D6835C841 /* Pods-FastBikeTests.modulemap */,
-				4BF70702492D168A1CFDABDBB8E2E7DC /* Pods-FastBikeTests-acknowledgements.markdown */,
-				83E792D8886FE19B853151460E0F55F5 /* Pods-FastBikeTests-acknowledgements.plist */,
-				D6DD780BECF37E9D6D24FFF0F397790D /* Pods-FastBikeTests-dummy.m */,
-				340614F14FBED0E34F6A991104ABAD88 /* Pods-FastBikeTests-frameworks.sh */,
-				CC91EB93F0A90119781BBC8DB0F2DACB /* Pods-FastBikeTests-Info.plist */,
-				8BF258F8DF990B4629D6BA58755E6F81 /* Pods-FastBikeTests-umbrella.h */,
-				A8523593028955F5A3FB542BDE3E773C /* Pods-FastBikeTests.debug.xcconfig */,
-				F738303858BD3710D31A74675A286388 /* Pods-FastBikeTests.release.xcconfig */,
-			);
-			name = "Pods-FastBikeTests";
-			path = "Target Support Files/Pods-FastBikeTests";
-			sourceTree = "<group>";
-		};
-		B37A2C88E812C502004F6CFF17EAFF0E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5980899CE5297DAE8BA757E64E3830E0 /* libGoogleAnalytics.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B39209673D3730431A19BC6BADB4ECAF /* GoogleToolboxForMac */ = {
-			isa = PBXGroup;
-			children = (
-				781E90B512B8F7B88B7977AF8668628D /* Defines */,
-				EE5E21D740583FB82FC9265AA74B9006 /* NSData+zlib */,
-				D521B7CB695651D2D4A8BA0B0A129A4B /* Support Files */,
-			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
-			sourceTree = "<group>";
-		};
-		B5817CA96EB7659B5742AD439E90B9C2 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				5E4E1A01571F91AC6C6D74D066C41A3A /* Analytics.h */,
-				BCE9E23C275578922AB6DDF8AAA8D8E7 /* Frameworks */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		BCE9E23C275578922AB6DDF8AAA8D8E7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E99A3D98B66175240F1E1E473ED0A /* GGLAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD914514A860B387AE9F661E190206D4 /* GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				CA7BC0447E713B674F718CADB8F91E26 /* GAI.h */,
-				630BC2137F9DE3585D5D081E9A57BF17 /* GAIDictionaryBuilder.h */,
-				8DAFA7AD2CA45C389A101DE24CD61B2B /* GAIEcommerceFields.h */,
-				FA6834BF7750344C8221D7DE9BC9566B /* GAIEcommerceProduct.h */,
-				102CE62D83B28CEC790F1C9E4A464305 /* GAIEcommerceProductAction.h */,
-				7829C2A47F526FA4AEA6EFD576845187 /* GAIEcommercePromotion.h */,
-				30F1825E920C7ACB3A6CAA6FFCFEA1D8 /* GAIFields.h */,
-				058DB578999A471FC025D792D83FF3A9 /* GAILogger.h */,
-				05D5BCA514A8AFDAC3181234068EEB4A /* GAITrackedViewController.h */,
-				A58B889C50D0A9E676EA0D6BD389510F /* GAITracker.h */,
-				B37A2C88E812C502004F6CFF17EAFF0E /* Frameworks */,
-				2301480218FFD391AB7384B71E407B4C /* Support Files */,
-			);
-			name = GoogleAnalytics;
-			path = GoogleAnalytics;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -547,27 +96,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6228F19379CF226E2D63B75D705DE6F2 /* Pods */,
-				00CA2EE8DEAC35F4232662CB26F4B614 /* Products */,
-				61345398D5521AB2C06BC6B2593EBDE2 /* Targets Support Files */,
+				DF508A574B2AFC704F66E6E2F37785E1 /* Products */,
+				906A38F3D6B186F682E52E59CC83505A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF451FAD0432B3B45D07EB9A429F6EB1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7902FA9A8FF7ECF12B8C061CC3C980C2 /* FirebaseInstanceID.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FirebaseInstanceID";
-			sourceTree = "<group>";
-		};
-		D1ABDD19916CB123E5008965939BAF4E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				725DC529C04B287E89EC80492F34A01E /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -578,65 +109,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D521B7CB695651D2D4A8BA0B0A129A4B /* Support Files */ = {
+		DF508A574B2AFC704F66E6E2F37785E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52C39CBFECF926047D48D82A59A8BDAE /* GoogleToolboxForMac.modulemap */,
-				72619BCE94BFDB23F156B69CA1EEA50F /* GoogleToolboxForMac.xcconfig */,
-				C4255F89D025201E93D45DEAA62FA7C1 /* GoogleToolboxForMac-dummy.m */,
-				D6F7DEF19B66C0D6F45B1B4C12049640 /* GoogleToolboxForMac-Info.plist */,
-				C5AEB3CF6905194CC86FC43CE6E1B655 /* GoogleToolboxForMac-prefix.pch */,
-				0F84A1BD5AE6C65FAD127F8758327D20 /* GoogleToolboxForMac-umbrella.h */,
+				F2C4C8D36A8C9CFDC9B8E217772B11E7 /* Pods_FastBike.framework */,
+				B95F2D300827B13169D16DE3DFD01C4D /* Pods_FastBikeTests.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		EE5E21D740583FB82FC9265AA74B9006 /* NSData+zlib */ = {
+		F130544F7E1BE0067A7C58C0B97F2087 /* Pods-FastBikeTests */ = {
 			isa = PBXGroup;
 			children = (
-				980CDCB0680242EE1A047A25363521F3 /* GTMNSData+zlib.h */,
-				59DC15D6C3CE828058CD7BD191D2E3A2 /* GTMNSData+zlib.m */,
+				7A252FEEEDCDABD65D98912F88455C8F /* Pods-FastBikeTests.modulemap */,
+				48FA13398D33C7D4FFE28B80EE9D92D0 /* Pods-FastBikeTests-acknowledgements.markdown */,
+				EC15F4CED67F50199017FBBE2E7A9251 /* Pods-FastBikeTests-acknowledgements.plist */,
+				3F3F23834C70475D17FA5E84762F2F9F /* Pods-FastBikeTests-dummy.m */,
+				DA9D3A93ECAA5B7D4F597C444CA966B9 /* Pods-FastBikeTests-Info.plist */,
+				9B90B94144F623E6F5484A85A2196C03 /* Pods-FastBikeTests-umbrella.h */,
+				8BF72F71037801A36A62389D2DAE7217 /* Pods-FastBikeTests.debug.xcconfig */,
+				3BB52C4FD93F2C5D38C626FAEEDEA1BF /* Pods-FastBikeTests.release.xcconfig */,
 			);
-			name = "NSData+zlib";
-			sourceTree = "<group>";
-		};
-		FF2B8F6AFFF66130B19EFBAF577EB190 /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				641E0CD3D5DF2B4B4175ACC5D31607EA /* Frameworks */,
-				86BFC5C9F553A703FB0FE395F457535B /* Support Files */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
+			name = "Pods-FastBikeTests";
+			path = "Target Support Files/Pods-FastBikeTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DF22C8E8C13B366DDA10A69B2D09596 /* Headers */ = {
+		366AC61A81E3CFD3A885BEA42A1E84ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F15F00173AFACA603C394B60CB84E2EE /* Pods-FastBike-umbrella.h in Headers */,
+				CA0461A54EAAD1C937DF137F27755167 /* Pods-FastBikeTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28005D0EAE0E5927EB45F7FAB7251533 /* Headers */ = {
+		BFEA0A62919D25DCC9051AFF810DB55F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48257BC0631AF42D27DD87AF247170D1 /* Pods-FastBikeTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBB9741490DFB49E08BC2B475857DA5C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6343C5F275DCF0CCF34F534769E4BA8A /* GoogleToolboxForMac-umbrella.h in Headers */,
-				2FD2FDFD8868DB8533AA6A5D58964640 /* GTMDefines.h in Headers */,
-				A236DAB7E5849478B39BAA7D759B5DEF /* GTMNSData+zlib.h in Headers */,
+				A0AA43E9DE3B0A22F73FF4C642286D24 /* Pods-FastBike-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,64 +158,34 @@
 /* Begin PBXNativeTarget section */
 		824515CD5003D42C4FB9203CD706DD68 /* Pods-FastBikeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CF0537311CFBC658C8E4AB18A94336E /* Build configuration list for PBXNativeTarget "Pods-FastBikeTests" */;
+			buildConfigurationList = F7EBA8979F177AE64E4614387F23A687 /* Build configuration list for PBXNativeTarget "Pods-FastBikeTests" */;
 			buildPhases = (
-				28005D0EAE0E5927EB45F7FAB7251533 /* Headers */,
-				CB21AC1FA7FCD46930D671AB0DB60520 /* Sources */,
-				E35D2E5168777727599C210371779E4C /* Frameworks */,
-				9369F674138166B3C8D13C828A6057D0 /* Resources */,
+				366AC61A81E3CFD3A885BEA42A1E84ED /* Headers */,
+				B5537583E7643764B5361A15E86CA8B6 /* Sources */,
+				E89C956EB2C33D29F856474A2B0865AE /* Frameworks */,
+				A0E0570A1325A65EF2DFD7BC4C2B0433 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC43B5440605BCADD306C60C2EE4CC0D /* PBXTargetDependency */,
-				4DAD297644EE69AC0861506C04D07FF9 /* PBXTargetDependency */,
-				69C1A8B29AA8147E4D0A5993FC05A6D0 /* PBXTargetDependency */,
-				B2C0F862CED871973EF64D045DD06D9F /* PBXTargetDependency */,
-				E4B23F96D5899AD84EC33E1DFF3B841D /* PBXTargetDependency */,
-				9188709D0074A1F5E7FE120EB8319DA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-FastBikeTests";
 			productName = "Pods-FastBikeTests";
 			productReference = B95F2D300827B13169D16DE3DFD01C4D /* Pods_FastBikeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B4E7DF7F1DB2349A29C6786F81D3F82 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
-			buildPhases = (
-				CBB9741490DFB49E08BC2B475857DA5C /* Headers */,
-				1AC9B8931366AEE80F3A7ACC02B48D11 /* Sources */,
-				B00FCB69AA4DD24A9C2F62E473504611 /* Frameworks */,
-				5C0B64A380B8793F0BFD8EBFF9C1B0CE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GoogleToolboxForMac;
-			productName = GoogleToolboxForMac;
-			productReference = 251C6319AD50CB50F18D50CBF727F8B2 /* GoogleToolboxForMac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E16988B76350DFC39EEAEEA1BB9F139F /* Pods-FastBike */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248C30B3DB45F5410DA2796270B51B9C /* Build configuration list for PBXNativeTarget "Pods-FastBike" */;
+			buildConfigurationList = C4E8910639759789147F106A0CB2D0F9 /* Build configuration list for PBXNativeTarget "Pods-FastBike" */;
 			buildPhases = (
-				0DF22C8E8C13B366DDA10A69B2D09596 /* Headers */,
-				1DB6EE6F1889C593584C8550703BCBDC /* Sources */,
-				026C0A794227868B2E34CB168D7910C7 /* Frameworks */,
-				8761B2C8C2A0A7B4086C00141599D903 /* Resources */,
+				BFEA0A62919D25DCC9051AFF810DB55F /* Headers */,
+				01A0827FDD19EB0F9F0701678C308AA9 /* Sources */,
+				DF82C6471DA80377FF491C9797AC2143 /* Frameworks */,
+				6DB23014AE09639FA369EA27E6BB92AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D8A7578DA80151048037080D9C1D993 /* PBXTargetDependency */,
-				69051BE74CC76AE67F0BE402CBF81BDB /* PBXTargetDependency */,
-				FEA1D5C777463DF005E0C3B9D7FCB1E6 /* PBXTargetDependency */,
-				0BB9A1810927DDE4DB0CA690A63B8A11 /* PBXTargetDependency */,
-				61843D75BF349D27AD0FCA7EAC8038A6 /* PBXTargetDependency */,
-				A64437D0C3B79365715E3BCE4B608D5E /* PBXTargetDependency */,
 			);
 			name = "Pods-FastBike";
 			productName = "Pods-FastBike";
@@ -727,16 +210,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 00CA2EE8DEAC35F4232662CB26F4B614 /* Products */;
+			productRefGroup = DF508A574B2AFC704F66E6E2F37785E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */,
-				4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */,
-				9E25537BF40D1A3B30CF43FD3E6ACD94 /* FirebaseInstanceID */,
-				B6F8229589F7EEB3E997F0119C4C7D0A /* Google */,
-				968D06ADB152B8D9FA77D570E2335002 /* GoogleAnalytics */,
-				D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */,
 				E16988B76350DFC39EEAEEA1BB9F139F /* Pods-FastBike */,
 				824515CD5003D42C4FB9203CD706DD68 /* Pods-FastBikeTests */,
 			);
@@ -744,21 +221,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C0B64A380B8793F0BFD8EBFF9C1B0CE /* Resources */ = {
+		6DB23014AE09639FA369EA27E6BB92AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8761B2C8C2A0A7B4086C00141599D903 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9369F674138166B3C8D13C828A6057D0 /* Resources */ = {
+		A0E0570A1325A65EF2DFD7BC4C2B0433 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -768,219 +238,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AC9B8931366AEE80F3A7ACC02B48D11 /* Sources */ = {
+		01A0827FDD19EB0F9F0701678C308AA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61968A48714BDD95E24CFF96637035E6 /* GoogleToolboxForMac-dummy.m in Sources */,
-				3ED05524606B66654D2117C695934153 /* GTMNSData+zlib.m in Sources */,
+				EB52D2A352388D48D7F21F54897B4944 /* Pods-FastBike-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DB6EE6F1889C593584C8550703BCBDC /* Sources */ = {
+		B5537583E7643764B5361A15E86CA8B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C2071E06F1050D78B31611A2FAAC0E /* Pods-FastBike-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB21AC1FA7FCD46930D671AB0DB60520 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				741C0B4D33A877A90AE9B8F00BB72D53 /* Pods-FastBikeTests-dummy.m in Sources */,
+				99F246096AA45FCD38640AFEDF062904 /* Pods-FastBikeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0BB9A1810927DDE4DB0CA690A63B8A11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Google;
-			target = B6F8229589F7EEB3E997F0119C4C7D0A /* Google */;
-			targetProxy = 9F7108EE43A3BEC803A1A75A17695A71 /* PBXContainerItemProxy */;
-		};
-		2FD6505631CD9A024C5D494106EF54FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleAnalytics;
-			target = 968D06ADB152B8D9FA77D570E2335002 /* GoogleAnalytics */;
-			targetProxy = 0F3C6A557D3E6BCB24E856D9F5B0D301 /* PBXContainerItemProxy */;
-		};
-		4DAD297644EE69AC0861506C04D07FF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseCore;
-			target = 4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */;
-			targetProxy = AA3CDCB5D0FC8051C3CC1359D74708FB /* PBXContainerItemProxy */;
-		};
-		5BB988189C98CC982446B122614591E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
-			targetProxy = 028B147F118BF99144C9BBCF3CAB5E7C /* PBXContainerItemProxy */;
-		};
-		61843D75BF349D27AD0FCA7EAC8038A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleAnalytics;
-			target = 968D06ADB152B8D9FA77D570E2335002 /* GoogleAnalytics */;
-			targetProxy = D4DEAD9E36B954F48A300F95DE42F752 /* PBXContainerItemProxy */;
-		};
-		66672560DFBA5EBA0363C4E7718AA484 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseAnalytics;
-			target = C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */;
-			targetProxy = 6E90E63AEE5C2B1D2564460550BD2630 /* PBXContainerItemProxy */;
-		};
-		69051BE74CC76AE67F0BE402CBF81BDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseCore;
-			target = 4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */;
-			targetProxy = 25035DD83DDFEEB16C4D6CDF2B1C5133 /* PBXContainerItemProxy */;
-		};
-		69C1A8B29AA8147E4D0A5993FC05A6D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseInstanceID;
-			target = 9E25537BF40D1A3B30CF43FD3E6ACD94 /* FirebaseInstanceID */;
-			targetProxy = 5873126874F2B913B30114B549B15EEC /* PBXContainerItemProxy */;
-		};
-		7D8A7578DA80151048037080D9C1D993 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseAnalytics;
-			target = C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */;
-			targetProxy = 5A26F13B61239539F1CCF0021A6E96E8 /* PBXContainerItemProxy */;
-		};
-		88D4D3C901BF1D6D7E8234644AA546BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseCore;
-			target = 4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */;
-			targetProxy = 2F9117C1700083EC02C976A04CD35BA5 /* PBXContainerItemProxy */;
-		};
-		9188709D0074A1F5E7FE120EB8319DA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
-			targetProxy = 5B9F086BD7990A839792A6BBDB56A49E /* PBXContainerItemProxy */;
-		};
-		92EE3E2A0381377E5DAF24E4BE9DBF68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
-			targetProxy = FEA3E05F83A0ED1027A1DA4A9C46776D /* PBXContainerItemProxy */;
-		};
-		A29EC6CFE93EA4F45B700DF818EC80AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseCore;
-			target = 4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */;
-			targetProxy = DCCBC5AA741D9B0802B5B8E98255B4BF /* PBXContainerItemProxy */;
-		};
-		A64437D0C3B79365715E3BCE4B608D5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = D47C581D39D227080F83B16A22A56664 /* GoogleToolboxForMac */;
-			targetProxy = 6D53A959C159F49555DAA1EE785DF5C5 /* PBXContainerItemProxy */;
-		};
-		B2C0F862CED871973EF64D045DD06D9F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Google;
-			target = B6F8229589F7EEB3E997F0119C4C7D0A /* Google */;
-			targetProxy = 6BE002F74E4E1BC02E500E7F80EAEB75 /* PBXContainerItemProxy */;
-		};
-		B5B63A415C82928059AF52D43F193268 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseInstanceID;
-			target = 9E25537BF40D1A3B30CF43FD3E6ACD94 /* FirebaseInstanceID */;
-			targetProxy = FED3D1BBFD5AAFE51D214ABBB0870E15 /* PBXContainerItemProxy */;
-		};
-		CC43B5440605BCADD306C60C2EE4CC0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseAnalytics;
-			target = C49E7A4D59E5C8BE8DE9FB1EFB150185 /* FirebaseAnalytics */;
-			targetProxy = 5DF00BB404F27282E510F3997B955676 /* PBXContainerItemProxy */;
-		};
-		E4B23F96D5899AD84EC33E1DFF3B841D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleAnalytics;
-			target = 968D06ADB152B8D9FA77D570E2335002 /* GoogleAnalytics */;
-			targetProxy = B91C6970889687427C2D4B818F96DC62 /* PBXContainerItemProxy */;
-		};
-		FEA1D5C777463DF005E0C3B9D7FCB1E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FirebaseInstanceID;
-			target = 9E25537BF40D1A3B30CF43FD3E6ACD94 /* FirebaseInstanceID */;
-			targetProxy = 3B062205E6D965880D20D47434268A1B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		35CDA0C434AB6AABC335A283B35E8FED /* Release */ = {
+		353E37A32AD4AE321F469AE3D25B1C3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7902FA9A8FF7ECF12B8C061CC3C980C2 /* FirebaseInstanceID.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		427A02A9F73F9BA4C2090BA44DD0FE14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BB6997AAADCF7D532E8B08CE967FE53 /* Pods-FastBike.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FastBike/Pods-FastBike-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FastBike/Pods-FastBike.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4584628AB320AE5F87F56C43EC43EA30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00F4ED6CF2D56CBA72B2E9FC8FBFC54E /* FirebaseCore.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4B38E2EEDA72CB496D65463B9340F61D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8523593028955F5A3FB542BDE3E773C /* Pods-FastBikeTests.debug.xcconfig */;
+			baseConfigurationReference = 3BB52C4FD93F2C5D38C626FAEEDEA1BF /* Pods-FastBikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1005,41 +284,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C37AB0699AFDB546976FCE8A454F587 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F738303858BD3710D31A74675A286388 /* Pods-FastBikeTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FastBikeTests/Pods-FastBikeTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FastBikeTests/Pods-FastBikeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1047,9 +291,9 @@
 			};
 			name = Release;
 		};
-		4E2018A17E2BB2391280FF61EC4AE488 /* Debug */ = {
+		3667EAC72F4A0D735734F945ECB885BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 795E60986EF911F32A1F1A70AEE93271 /* Pods-FastBike.debug.xcconfig */;
+			baseConfigurationReference = C91AE9C37D514B545D52E4AD3EA8962F /* Pods-FastBike.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1074,31 +318,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		841A17B362522CC6DEF9ADAC9C28A704 /* Debug */ = {
+		56F49DF558B6792E3C1877CCE0AA43E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C1D7FD11081A627F8DB28E13A0CD067 /* FirebaseAnalytics.xcconfig */;
+			baseConfigurationReference = 7627A6C3ACFBDD6895C5EDCD515B6C22 /* Pods-FastBike.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		88022F4322A4C3056A781ED41D0FDDDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72619BCE94BFDB23F156B69CA1EEA50F /* GoogleToolboxForMac.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1108,23 +338,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FastBike/Pods-FastBike-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
-				PRODUCT_MODULE_NAME = GoogleToolboxForMac;
-				PRODUCT_NAME = GoogleToolboxForMac;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FastBike/Pods-FastBike.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1250,53 +482,11 @@
 			};
 			name = Debug;
 		};
-		AA0AB2FC7FB23E4F4C11DA5BCBB143E4 /* Debug */ = {
+		91AAEE1B1AA9FF7BBC20A52AFFB013F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECFBD0ABB002699F215E3C0923C9A75A /* Google.xcconfig */;
+			baseConfigurationReference = 8BF72F71037801A36A62389D2DAE7217 /* Pods-FastBikeTests.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AD5C1068EBB73CC0C2B72D88913660C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D3A90D22F3C7DE8D82DEF4AD21D7E3A /* GoogleAnalytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B3A34712925D2CC48AF89D67A62730E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D3A90D22F3C7DE8D82DEF4AD21D7E3A /* GoogleAnalytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BD99029D21DB820AF51BDB62B9EE6E88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72619BCE94BFDB23F156B69CA1EEA50F /* GoogleToolboxForMac.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1306,113 +496,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FastBikeTests/Pods-FastBikeTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
-				PRODUCT_MODULE_NAME = GoogleToolboxForMac;
-				PRODUCT_NAME = GoogleToolboxForMac;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FastBikeTests/Pods-FastBikeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D106FB666D7A732FE654B9986F52FE03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C1D7FD11081A627F8DB28E13A0CD067 /* FirebaseAnalytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E7C3BB537619D071E722E6C4144B60FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECFBD0ABB002699F215E3C0923C9A75A /* Google.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EC2C603A8DEE17EE814E14E0514EDF64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00F4ED6CF2D56CBA72B2E9FC8FBFC54E /* FirebaseCore.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EEA47DF5B43391BAB01EB1DBA9DF1BF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7902FA9A8FF7ECF12B8C061CC3C980C2 /* FirebaseInstanceID.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05F0F025DBD3F39BA9B57785D9E10B75 /* Build configuration list for PBXAggregateTarget "FirebaseAnalytics" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				841A17B362522CC6DEF9ADAC9C28A704 /* Debug */,
-				D106FB666D7A732FE654B9986F52FE03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		208C98A87EB59A2C89B7625090673A1F /* Build configuration list for PBXAggregateTarget "FirebaseCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC2C603A8DEE17EE814E14E0514EDF64 /* Debug */,
-				4584628AB320AE5F87F56C43EC43EA30 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		248C30B3DB45F5410DA2796270B51B9C /* Build configuration list for PBXNativeTarget "Pods-FastBike" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E2018A17E2BB2391280FF61EC4AE488 /* Debug */,
-				427A02A9F73F9BA4C2090BA44DD0FE14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1422,47 +527,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B4E7DF7F1DB2349A29C6786F81D3F82 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+		C4E8910639759789147F106A0CB2D0F9 /* Build configuration list for PBXNativeTarget "Pods-FastBike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88022F4322A4C3056A781ED41D0FDDDA /* Debug */,
-				BD99029D21DB820AF51BDB62B9EE6E88 /* Release */,
+				3667EAC72F4A0D735734F945ECB885BC /* Debug */,
+				56F49DF558B6792E3C1877CCE0AA43E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CAF476B26098AAB302033DB54FAD94F /* Build configuration list for PBXAggregateTarget "GoogleAnalytics" */ = {
+		F7EBA8979F177AE64E4614387F23A687 /* Build configuration list for PBXNativeTarget "Pods-FastBikeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3A34712925D2CC48AF89D67A62730E5 /* Debug */,
-				AD5C1068EBB73CC0C2B72D88913660C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		519DFAEA8B9A1C37CA697F0D09B874B3 /* Build configuration list for PBXAggregateTarget "Google" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA0AB2FC7FB23E4F4C11DA5BCBB143E4 /* Debug */,
-				E7C3BB537619D071E722E6C4144B60FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9CF0537311CFBC658C8E4AB18A94336E /* Build configuration list for PBXNativeTarget "Pods-FastBikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B38E2EEDA72CB496D65463B9340F61D /* Debug */,
-				4C37AB0699AFDB546976FCE8A454F587 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FAA964F264B0B04E69AFBE7C22E273F /* Build configuration list for PBXAggregateTarget "FirebaseInstanceID" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EEA47DF5B43391BAB01EB1DBA9DF1BF4 /* Debug */,
-				35CDA0C434AB6AABC335A283B35E8FED /* Release */,
+				91AAEE1B1AA9FF7BBC20A52AFFB013F0 /* Debug */,
+				353E37A32AD4AE321F469AE3D25B1C3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
