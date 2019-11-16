@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FastBikeUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>FastBikeWatchOS (Complication).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>EA2840E41D88159000BCE287</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EACE2344237FFE39000EA28C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
