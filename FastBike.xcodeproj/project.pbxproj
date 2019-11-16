@@ -528,10 +528,9 @@
 			};
 			buildConfigurationList = EA2840C11D88159000BCE287 /* Build configuration list for PBXProject "FastBike" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
