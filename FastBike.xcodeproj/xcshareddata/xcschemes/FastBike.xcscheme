@@ -20,6 +20,20 @@
                ReferencedContainer = "container:FastBike.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EACE2344237FFE39000EA28C"
+               BuildableName = "FastBikeUITests.xctest"
+               BlueprintName = "FastBikeUITests"
+               ReferencedContainer = "container:FastBike.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
