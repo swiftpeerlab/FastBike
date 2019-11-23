@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../Downloads/coordinates.gpx">
+      location = "group:FastBike/coordinates.gpx">
    </FileRef>
    <FileRef
       location = "group:FastBike.xcodeproj">

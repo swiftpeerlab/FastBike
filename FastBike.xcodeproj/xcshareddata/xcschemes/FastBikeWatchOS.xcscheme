@@ -65,7 +65,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA2840E41D88159000BCE287"
+               BlueprintIdentifier = "EACE2344237FFE39000EA28C"
                BuildableName = "FastBikeUITests.xctest"
                BlueprintName = "FastBikeUITests"
                ReferencedContainer = "container:FastBike.xcodeproj">
