@@ -8,12 +8,16 @@ class BikeMapViewController: UIViewController, MKMapViewDelegate {
     var bikeStations = [BikeStation]()
     var location: CLLocation?
     var mapZoomSet = false
+    @IBOutlet weak var parkButtonView: UIView!
     @IBOutlet var bikeButton: UIButton!
     @IBOutlet var parkButton: UIButton!
     lazy var service: BikeStationService? = BikeStationServiceAggregator(services: TrentinoBikeStationServiceFactory.get())
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        #if targetEnvironment(macCatalyst)
+        parkButtonView.isHidden = true
+        #endif
         mapView?.delegate = self
         service?.getStations(delegate: self)
         getUserPosition()
